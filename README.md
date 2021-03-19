@@ -1,5 +1,5 @@
 # VBA_NSlookup
-Allows NSLookup as a formula/function, but uses a pre-defined list of name servers rather than the endpoints default DNS - NSlookup <ip> <nameserver>
+Allows NSLookup as a formula/function, but uses a pre-defined list of name servers rather than the endpoints default DNS
 
 _You will need to change the code on lines 5-11 to use the name servers you wish to use and change the For loop so that iterates across the correct number of servers._
 
