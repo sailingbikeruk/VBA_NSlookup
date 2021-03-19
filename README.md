@@ -24,3 +24,10 @@ Return types are
 
 1 = IP Address
 2 = Host Name (FQDN)
+
+## Examples
+
+=NSLookup(10.10.10.1,2)
+=NSlookup(A1,2)
+=NSlookup("yahoo.co.uk",1)
+
