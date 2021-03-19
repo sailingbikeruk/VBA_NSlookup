@@ -9,6 +9,9 @@ Public Function NSLookup(lookupVal As String, Optional addressOpt As Integer) As
        "ns1.domain5.com", _
        "ns1.domain6.com", _
        "ns1.domain7.com")
+   
+   upper = UBound(NameServers)
+   lower = LBound(NameServers)
 
    'Skip everything if the field is blank
    If lookupVal <> "" Then
@@ -35,7 +38,7 @@ Public Function NSLookup(lookupVal As String, Optional addressOpt As Integer) As
         End If
        
         'Run the nslookup command
-        For i = 1 To 7
+        For i = lower To upper
             sFilename = oFSO.GetTempName
             oShell.Run "cmd /c nslookup " & lookupVal & " " & NameServers(i) & " > " & sFilename, 0, True
             Set oTempFile = oFSO.OpenTextFile(sFilename, 1)
