@@ -16,7 +16,7 @@ In the spreadsheet with IP addresses, you should now have user defined functions
 
 or you can go to Formulas > Insert function > User Defined Functions
 
-usage is 
+## Usage 
 
 =NSlookup(Value_To_Lookup,ReturnType)
 
