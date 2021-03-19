@@ -22,12 +22,12 @@ or you can go to Formulas > Insert function > User Defined Functions
 
 Return types are
 
-1 = IP Address
-2 = Host Name (FQDN)
+- 1 = IP Address
+- 2 = Host Name (FQDN)
 
 ## Examples
 
-=NSLookup(10.10.10.1,2)
-=NSlookup(A1,2)
-=NSlookup("yahoo.co.uk",1)
+- =NSLookup(10.10.10.1,2)
+- =NSlookup(A1,2)
+- =NSlookup("yahoo.co.uk",1)
 
