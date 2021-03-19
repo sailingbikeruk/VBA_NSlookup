@@ -9,7 +9,8 @@ Add the code to a module in the Excel Visual Basic editor.
 
 Save as an Excel Add-in, the recommended location at the time of writing is %appdata%\Roaming\Microsoft\AddIns
 
-- Enable the add-in in Excel - File > Options > Add-ins
+Enable the add-in in. To do so:
+- In Excel (2016) go to - File > Options > Add-ins
 - At the bottom of the add-ins windows make sure "Excel Add-Ins" is selected in the Manage drop down box
 - click go
 - In the box that opens select (tick) the entry that relates to your saved add-ins workbook 
